@@ -1,0 +1,8 @@
+language: node_js
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: 
+
+script: npm run build
